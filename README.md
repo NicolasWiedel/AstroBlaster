@@ -1,5 +1,15 @@
 # AstroBlaster
 
+## Assets
+All texture are from Ravenmoree Industries loaded from itch.io
+
+## Music
+Author: HorrorPen Intense
+
+## Sounds
+Free sounds by opengameart.org
+
+## General
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
 This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
