@@ -1,0 +1,395 @@
+astroblaster.png
+size: 512, 905
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+pma: false
+enemy_1_b_l1
+  bounds: 156, 393, 64, 64
+enemy_1_b_l2
+  bounds: 220, 393, 64, 64
+enemy_1_b_m
+  bounds: 284, 393, 64, 64
+enemy_1_b_r1
+  bounds: 348, 393, 64, 64
+enemy_1_b_r2
+  bounds: 412, 393, 64, 64
+enemy_1_g_l1
+  bounds: 0, 457, 64, 64
+enemy_1_g_l2
+  bounds: 64, 457, 64, 64
+enemy_1_g_m
+  bounds: 128, 457, 64, 64
+enemy_1_g_r1
+  bounds: 192, 457, 64, 64
+enemy_1_g_r2
+  bounds: 256, 457, 64, 64
+enemy_1_r_l1
+  bounds: 320, 457, 64, 64
+enemy_1_r_l2
+  bounds: 384, 457, 64, 64
+enemy_1_r_m
+  bounds: 448, 457, 64, 64
+enemy_1_r_r1
+  bounds: 0, 521, 64, 64
+enemy_1_r_r2
+  bounds: 64, 521, 64, 64
+enemy_1_shadow_l1
+  bounds: 128, 521, 64, 64
+enemy_1_shadow_l2
+  bounds: 192, 521, 64, 64
+enemy_1_shadow_m
+  bounds: 256, 521, 64, 64
+enemy_1_shadow_r1
+  bounds: 320, 521, 64, 64
+enemy_1_shadow_r2
+  bounds: 384, 521, 64, 64
+enemy_2_b_l1
+  bounds: 448, 521, 64, 64
+enemy_2_b_l2
+  bounds: 0, 585, 64, 64
+enemy_2_b_m
+  bounds: 64, 585, 64, 64
+enemy_2_b_r1
+  bounds: 128, 585, 64, 64
+enemy_2_b_r2
+  bounds: 192, 585, 64, 64
+enemy_2_g_l1
+  bounds: 256, 585, 64, 64
+enemy_2_g_l2
+  bounds: 320, 585, 64, 64
+enemy_2_g_m
+  bounds: 384, 585, 64, 64
+enemy_2_g_r1
+  bounds: 448, 585, 64, 64
+enemy_2_g_r2
+  bounds: 0, 649, 64, 64
+enemy_2_r_l1
+  bounds: 64, 649, 64, 64
+enemy_2_r_l2
+  bounds: 128, 649, 64, 64
+enemy_2_r_m
+  bounds: 192, 649, 64, 64
+enemy_2_r_r1
+  bounds: 256, 649, 64, 64
+enemy_2_r_r2
+  bounds: 320, 649, 64, 64
+enemy_2_shadow_l1
+  bounds: 384, 649, 64, 64
+enemy_2_shadow_l2
+  bounds: 448, 649, 64, 64
+enemy_2_shadow_m
+  bounds: 0, 713, 64, 64
+enemy_2_shadow_r1
+  bounds: 64, 713, 64, 64
+enemy_2_shadow_r2
+  bounds: 128, 713, 64, 64
+exhaust
+  bounds: 192, 713, 64, 64
+  index: 1
+exhaust
+  bounds: 256, 713, 64, 64
+  index: 2
+exhaust
+  bounds: 320, 713, 64, 64
+  index: 3
+exhaust
+  bounds: 384, 713, 64, 64
+  index: 4
+exhaust
+  bounds: 448, 713, 64, 64
+  index: 5
+explosion_1
+  bounds: 96, 240, 52, 51
+  index: 1
+explosion_1
+  bounds: 148, 240, 52, 51
+  index: 2
+explosion_1
+  bounds: 200, 240, 52, 51
+  index: 3
+explosion_1
+  bounds: 252, 240, 52, 51
+  index: 4
+explosion_1
+  bounds: 304, 240, 52, 51
+  index: 5
+explosion_1
+  bounds: 356, 240, 52, 51
+  index: 6
+explosion_1
+  bounds: 408, 240, 52, 51
+  index: 7
+explosion_1
+  bounds: 460, 240, 52, 51
+  index: 8
+explosion_1
+  bounds: 0, 291, 52, 51
+  index: 9
+explosion_1
+  bounds: 52, 291, 52, 51
+  index: 10
+explosion_1
+  bounds: 104, 291, 52, 51
+  index: 11
+explosion_2
+  bounds: 156, 291, 52, 51
+  index: 1
+explosion_2
+  bounds: 208, 291, 52, 51
+  index: 2
+explosion_2
+  bounds: 260, 291, 52, 51
+  index: 3
+explosion_2
+  bounds: 312, 291, 52, 51
+  index: 4
+explosion_2
+  bounds: 364, 291, 52, 51
+  index: 5
+explosion_2
+  bounds: 416, 291, 52, 51
+  index: 6
+explosion_2
+  bounds: 0, 342, 52, 51
+  index: 7
+explosion_2
+  bounds: 52, 342, 52, 51
+  index: 8
+explosion_2
+  bounds: 104, 342, 52, 51
+  index: 9
+explosion_3
+  bounds: 156, 342, 52, 51
+  index: 1
+explosion_3
+  bounds: 208, 342, 52, 51
+  index: 2
+explosion_3
+  bounds: 260, 342, 52, 51
+  index: 3
+explosion_3
+  bounds: 312, 342, 52, 51
+  index: 4
+explosion_3
+  bounds: 364, 342, 52, 51
+  index: 5
+explosion_3
+  bounds: 416, 342, 52, 51
+  index: 6
+explosion_3
+  bounds: 0, 393, 52, 51
+  index: 7
+explosion_3
+  bounds: 52, 393, 52, 51
+  index: 8
+explosion_3
+  bounds: 104, 393, 52, 51
+  index: 9
+mine_1
+  bounds: 57, 0, 48, 48
+  index: 1
+mine_1
+  bounds: 105, 0, 48, 48
+  index: 2
+mine_1
+  bounds: 153, 0, 48, 48
+  index: 3
+mine_1
+  bounds: 201, 0, 48, 48
+  index: 4
+mine_1
+  bounds: 249, 0, 48, 48
+  index: 5
+mine_1
+  bounds: 297, 0, 48, 48
+  index: 6
+mine_1
+  bounds: 345, 0, 48, 48
+  index: 7
+mine_1
+  bounds: 393, 0, 48, 48
+  index: 8
+mine_1
+  bounds: 441, 0, 48, 48
+  index: 9
+mine_1_shadow
+  bounds: 0, 48, 48, 48
+  index: 1
+mine_1_shadow
+  bounds: 48, 48, 48, 48
+  index: 2
+mine_1_shadow
+  bounds: 96, 48, 48, 48
+  index: 3
+mine_1_shadow
+  bounds: 144, 48, 48, 48
+  index: 4
+mine_1_shadow
+  bounds: 192, 48, 48, 48
+  index: 5
+mine_1_shadow
+  bounds: 240, 48, 48, 48
+  index: 6
+mine_1_shadow
+  bounds: 288, 48, 48, 48
+  index: 7
+mine_1_shadow
+  bounds: 336, 48, 48, 48
+  index: 8
+mine_2
+  bounds: 384, 48, 48, 48
+  index: 1
+mine_2
+  bounds: 432, 48, 48, 48
+  index: 2
+mine_2
+  bounds: 0, 96, 48, 48
+  index: 3
+mine_2
+  bounds: 48, 96, 48, 48
+  index: 4
+mine_2_shadow
+  bounds: 96, 96, 48, 48
+  index: 1
+mine_2_shadow
+  bounds: 144, 96, 48, 48
+  index: 2
+mine_2_shadow
+  bounds: 192, 96, 48, 48
+  index: 3
+mine_2_shadow
+  bounds: 240, 96, 48, 48
+  index: 4
+mine_11
+  bounds: 288, 96, 48, 48
+  index: 1
+mine_11
+  bounds: 336, 96, 48, 48
+  index: 2
+mine_11
+  bounds: 384, 96, 48, 48
+  index: 3
+mine_11
+  bounds: 432, 96, 48, 48
+  index: 4
+mine_11
+  bounds: 0, 144, 48, 48
+  index: 5
+mine_11
+  bounds: 48, 144, 48, 48
+  index: 6
+mine_11
+  bounds: 96, 144, 48, 48
+  index: 7
+mine_11
+  bounds: 144, 144, 48, 48
+  index: 8
+mine_11
+  bounds: 192, 144, 48, 48
+  index: 9
+mine_12
+  bounds: 240, 144, 48, 48
+  index: 1
+mine_12
+  bounds: 288, 144, 48, 48
+  index: 2
+mine_12
+  bounds: 336, 144, 48, 48
+  index: 3
+mine_12
+  bounds: 384, 144, 48, 48
+  index: 4
+mine_12
+  bounds: 432, 144, 48, 48
+  index: 5
+mine_12
+  bounds: 0, 192, 48, 48
+  index: 6
+mine_12
+  bounds: 48, 192, 48, 48
+  index: 7
+mine_12
+  bounds: 96, 192, 48, 48
+  index: 8
+mine_12
+  bounds: 144, 192, 48, 48
+  index: 9
+mine_21
+  bounds: 192, 192, 48, 48
+  index: 1
+mine_21
+  bounds: 240, 192, 48, 48
+  index: 2
+mine_21
+  bounds: 288, 192, 48, 48
+  index: 3
+mine_21
+  bounds: 336, 192, 48, 48
+  index: 4
+mine_22
+  bounds: 384, 192, 48, 48
+  index: 1
+mine_22
+  bounds: 432, 192, 48, 48
+  index: 2
+mine_22
+  bounds: 0, 240, 48, 48
+  index: 3
+mine_22
+  bounds: 48, 240, 48, 48
+  index: 4
+plasma
+  bounds: 14, 0, 6, 21
+  index: 1
+plasma
+  bounds: 4, 0, 5, 15
+  index: 2
+player_b_l1
+  bounds: 0, 777, 64, 64
+player_b_l2
+  bounds: 64, 777, 64, 64
+player_b_m
+  bounds: 128, 777, 64, 64
+player_b_r1
+  bounds: 192, 777, 64, 64
+player_b_r2
+  bounds: 256, 777, 64, 64
+player_r_l1
+  bounds: 320, 777, 64, 64
+player_r_l2
+  bounds: 384, 777, 64, 64
+player_r_m
+  bounds: 448, 777, 64, 64
+player_r_r1
+  bounds: 0, 841, 64, 64
+player_r_r2
+  bounds: 64, 841, 64, 64
+player_shadow_l1
+  bounds: 128, 841, 64, 64
+player_shadow_l2
+  bounds: 192, 841, 64, 64
+player_shadow_m
+  bounds: 256, 841, 64, 64
+player_shadow_r1
+  bounds: 320, 841, 64, 64
+player_shadow_r2
+  bounds: 384, 841, 64, 64
+proton
+  bounds: 44, 0, 13, 13
+  index: 1
+proton
+  bounds: 26, 0, 9, 10
+  index: 2
+proton
+  bounds: 9, 0, 5, 5
+  index: 3
+vulcan
+  bounds: 20, 0, 6, 22
+  index: 1
+vulcan
+  bounds: 35, 0, 9, 22
+  index: 2
+vulcan
+  bounds: 0, 0, 4, 14
+  index: 3
