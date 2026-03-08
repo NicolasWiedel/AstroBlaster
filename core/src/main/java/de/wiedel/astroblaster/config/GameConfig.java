@@ -1,4 +1,4 @@
-package de.wiedel.astroblaster.entities.config;
+package de.wiedel.astroblaster.config;
 
 import com.badlogic.gdx.graphics.Color;
 

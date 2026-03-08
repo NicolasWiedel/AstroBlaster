@@ -3,7 +3,7 @@ package de.wiedel.astroblaster.lwjgl3;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 import de.wiedel.astroblaster.GdxGame;
-import de.wiedel.astroblaster.entities.config.GameConfig;
+import de.wiedel.astroblaster.config.GameConfig;
 
 /** Launches the desktop (LWJGL3) application. */
 public class Lwjgl3Launcher {
