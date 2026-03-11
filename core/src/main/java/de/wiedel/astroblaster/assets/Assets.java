@@ -9,7 +9,7 @@ public class Assets {
 
     public static final String DEFAULT_FONT = "ui/default.fnt";
 
-    public static final String GAME_PLAY = "assets/astroblaster.atlas";
+    public static final String GAME_PLAY = "assets/atlas/astroblaster.atlas";
 
     public static final String BACKGROUND_MUSIC = "music/Intense.mp3";
 

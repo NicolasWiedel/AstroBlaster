@@ -1,5 +1,6 @@
 package de.wiedel.astroblaster.screens;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.assets.AssetDescriptor;
 import com.badlogic.gdx.assets.AssetManager;
@@ -15,12 +16,14 @@ public class LoadingScreen implements Screen {
 
     private final GdxGame game;
     private final AssetManager assetManager;
-    private SpriteBatch batch;
+    private final SpriteBatch batch;
 
     private final Texture background;
     private final Texture loadingbarFill;
     private final Texture loadingbarEmpty;
     private final BitmapFont defaultFont;
+
+    private float timer;
 
     public LoadingScreen(GdxGame game){
         this.game = game;
@@ -53,16 +56,33 @@ public class LoadingScreen implements Screen {
 
     @Override
     public void show() {
-
+        timer = 0;
     }
 
     @Override
     public void render(float delta) {
 
+        boolean done = assetManager.update();
+
+        if (done){
+            game.setScreen(new GameScreen(game));
+        }
+
         ScreenUtils.clear(GameConfig.CORNFLOWER_BLUE);
 
         batch.begin();
         batch.draw(background, 0, 0);
+
+        float x = Gdx.graphics.getWidth() / 2f - loadingbarEmpty. getWidth() / 2f;
+        float y = Gdx.graphics.getHeight() / 2f - loadingbarEmpty.getHeight() / 2f;
+        float width = loadingbarEmpty.getWidth() * assetManager.getProgress();
+        batch.draw(loadingbarEmpty, x, y);
+        batch.draw(loadingbarFill, x, y, width, loadingbarFill.getHeight());
+        defaultFont.draw(batch,
+            String.format("Loading %d%%",
+                (int)(assetManager.getProgress() * 100)),
+            x + 140, y + loadingbarEmpty.getHeight() + 50);
+
         batch.end();
     }
 
@@ -88,6 +108,6 @@ public class LoadingScreen implements Screen {
 
     @Override
     public void dispose() {
-
+        batch.dispose();
     }
 }
