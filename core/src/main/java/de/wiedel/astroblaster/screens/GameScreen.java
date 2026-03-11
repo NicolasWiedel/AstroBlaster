@@ -2,7 +2,6 @@ package de.wiedel.astroblaster.screens;
 
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.assets.AssetManager;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
@@ -12,7 +11,6 @@ import de.wiedel.astroblaster.assets.AssetDescriptors;
 import de.wiedel.astroblaster.config.GameConfig;
 import de.wiedel.astroblaster.utils.Direction;
 import de.wiedel.astroblaster.utils.Parallax;
-import org.w3c.dom.css.Rect;
 
 public class GameScreen implements Screen {
 
@@ -35,7 +33,7 @@ public class GameScreen implements Screen {
         background.setSize(GameConfig.WIDTH, GameConfig.HEIGHT);
         background.setDirection(Direction.DOWN);
         background.setSpeed(GameConfig.BACKGROUND_SPEED);
-        backgroundRegion = new TextureRegion(game.getAssetManager().get(AssetDescriptors.BACKGROUND));
+        backgroundRegion = new TextureRegion(assetManager.get(AssetDescriptors.BACKGROUND));
     }
 
     @Override
